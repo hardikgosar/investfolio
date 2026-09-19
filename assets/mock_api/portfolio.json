@@ -1,0 +1,130 @@
+{
+  "portfolioId": "PF-10001",
+  "currency": "INR",
+  "cashBalance": 18500.0,
+  "dayChange": 1240.5,
+  "dayChangePercent": 0.91,
+  "performance": [
+    { "label": "Mon", "value": 145200 },
+    { "label": "Tue", "value": 147100 },
+    { "label": "Wed", "value": 146400 },
+    { "label": "Thu", "value": 149300 },
+    { "label": "Fri", "value": 148900 },
+    { "label": "Sat", "value": 150540 },
+    { "label": "Sun", "value": 151780 }
+  ],
+  "holdings": [
+    {
+      "id": "h1",
+      "name": "Nifty 50 ETF",
+      "symbol": "NIFTYBEES",
+      "investedAmount": 50000,
+      "currentValue": 58200,
+      "units": 320.5,
+      "averageBuyPrice": 156.01,
+      "currentPrice": 181.59,
+      "dayChange": 520,
+      "dayChangePercent": 0.9,
+      "sector": "Index",
+      "assetType": "ETF"
+    },
+    {
+      "id": "h2",
+      "name": "Momentum 30 ETF",
+      "symbol": "MOMENTUM30",
+      "investedAmount": 25000,
+      "currentValue": 22750,
+      "units": 140.2,
+      "averageBuyPrice": 178.32,
+      "currentPrice": 162.27,
+      "dayChange": -180,
+      "dayChangePercent": -0.79,
+      "sector": "Index",
+      "assetType": "ETF"
+    },
+    {
+      "id": "h3",
+      "name": "Gold ETF",
+      "symbol": "GOLDBEES",
+      "investedAmount": 15000,
+      "currentValue": 17840,
+      "units": 210,
+      "averageBuyPrice": 71.43,
+      "currentPrice": 84.95,
+      "dayChange": 210,
+      "dayChangePercent": 1.19,
+      "sector": "Gold",
+      "assetType": "ETF"
+    },
+    {
+      "id": "h4",
+      "name": "Banking & PSU Debt",
+      "symbol": "BANKPSU",
+      "investedAmount": 30000,
+      "currentValue": 31150,
+      "units": 95.7,
+      "averageBuyPrice": 313.48,
+      "currentPrice": 325.5,
+      "dayChange": 240,
+      "dayChangePercent": 0.78,
+      "sector": "Debt",
+      "assetType": "Fund"
+    },
+    {
+      "id": "h5",
+      "name": "Flexi Cap Fund",
+      "symbol": "FLEXICAP",
+      "investedAmount": 20000,
+      "currentValue": 21840,
+      "units": 82.4,
+      "averageBuyPrice": 242.72,
+      "currentPrice": 265.05,
+      "dayChange": 450.5,
+      "dayChangePercent": 2.11,
+      "sector": "Equity",
+      "assetType": "Mutual Fund"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "txn_001",
+      "symbol": "NIFTYBEES",
+      "name": "Nifty 50 ETF",
+      "type": "BUY",
+      "quantity": 20,
+      "price": 181.2,
+      "amount": 3624,
+      "date": "2026-09-16T10:30:00"
+    },
+    {
+      "id": "txn_002",
+      "symbol": "GOLDBEES",
+      "name": "Gold ETF",
+      "type": "BUY",
+      "quantity": 10,
+      "price": 84.1,
+      "amount": 841,
+      "date": "2026-09-15T13:15:00"
+    },
+    {
+      "id": "txn_003",
+      "symbol": "MOMENTUM30",
+      "name": "Momentum 30 ETF",
+      "type": "SELL",
+      "quantity": 5,
+      "price": 162.0,
+      "amount": 810,
+      "date": "2026-09-14T11:20:00"
+    },
+    {
+      "id": "txn_004",
+      "symbol": "FLEXICAP",
+      "name": "Flexi Cap Fund",
+      "type": "BUY",
+      "quantity": 8,
+      "price": 263.4,
+      "amount": 2107.2,
+      "date": "2026-09-12T15:05:00"
+    }
+  ]
+}
